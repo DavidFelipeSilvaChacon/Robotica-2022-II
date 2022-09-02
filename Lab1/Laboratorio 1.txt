@@ -1,0 +1,14 @@
+Universidad Nacional de Colombia
+Robótica, 2022-II
+Laboratorio 1 - David Felipe Silva Chacón y Daniel Esteban Prieto Jiménez
+
+En la carpeta se encuentra un archivo comprimido que contiene el código usado, un archivo en formato STL que es un modelo tridimensional de la herramienta empleada, un video que contiene tanto la simulación en RobotStudio como la implementación en laboratorio, y el presente archivo en el que se describe la solución planteada.
+
+Para el desarrollo del laboratorio se inició con la creación de la herramienta. Esta se fabricó empleando anillos de madera obtenidos mediante corte láser, los cuales se sostienen empleando tuercas y tornillos M6 de 90mm. Se usó un resorte que soporta el marcador y le proporciona movilidad. Una vez fabricada la herramienta, se realizó el modelo en CAD de la misma en el software Autodesk Inventor. En este mismo software se creó el tablero que contiene las letras que serán usadas posteriormente para crear las trayectorias.
+
+En el software RobotStudio se creó una estación con el robot IRB140 y el controlador IRC5, y se importaron los modelos de la herramienta y del tablero. Se creó una herramienta a partir del modelo tridimensional, se le asignó un TCP y se conectó al robot. El tablero se usó para crear un Workobject y se estableció un sistema de coordenadas por tres puntos.
+Se definió un punto de Home, en el que se tienen todas las articulaciones a 0°, y al que se llega mediante un movimiento articular. Se crearon las trayectorias para cada letra, las cuales se recorren con secuencias de movimientos lineales, y se asignó una distancia de acercamiento al tablero. Se escogió una velocidad de 200 mm/s.
+
+Con las trayectorias definidas, se creó el código de RAPID a partir de la información del controlador, y se modificó la función MAIN para que iniciara desde la posición Home, luego siguiera las trayectorias de las letras y finalmente volviera a la posición Home. Mediante un dispositivo USB se transmitió este código al flex pendant del robot 1 del laboratorio y, tras definir manualmente el sistema de coordenadas por tres puntos, se ejecutó la rutina.
+
+Como se puede observar en el video, el resultado es que tanto en la simulación como en la práctica el robot sigue el comportamiento deseado, y el diseño de la herramienta es óptimo para esta aplicación de escritura sobre un plano.
