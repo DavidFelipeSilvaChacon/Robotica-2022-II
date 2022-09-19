@@ -12,12 +12,13 @@ subscribed = rossubscriber("/turtle1/pose", "turtlesim/Pose");
 lastMessage = subscribed.LatestMessage;
 %%
 % Script para enviar todos los valores asociados a la pose:
-posePub = rospublisher("/turtle1/pose", "turtlesim/Pose");
-poseMsg = rosmessage(posePub);
-poseMsg.X = 5;
-poseMsg.Y = 5;
-poseMsg.Theta = 0;
-poseMsg.LinearVelocity = 1;
-poseMsg.AngularVelocity = 1;
-send(posePub, poseMsg);
-pause(1)
+teleporter = rossvcclient("/turtle1/teleport_absolute");
+waitforserver(teleporter);
+tpmsg = rosmessage(teleporter);
+tpmsg.X = 3;
+tpmsg.Y = 3;
+tpmsg.Theta = pi/2;
+call(teleporter, tpmsg);
+
+%%
+rosshutdown;
