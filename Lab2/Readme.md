@@ -5,7 +5,7 @@
 ## Conexión de ROS con MATLAB:
 
 Como indica la guía, lo primero que se hace para conectar ROS con MATLAB es abrir dos terminales de Linux, en el primero se escribe el comando *roscore* (lo que permite iniciar el modo maestro) y en el segundo *rosrun turtlesim turtlesim_node* para abrir el programa turtlesim, como se ve en la imagen.
-![1](/media/SS1.png)
+![1](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab2/media/SS1.png)
 A continuación, se inicia una instancia de MATLAB, en el cual se ha previamente instalado el toolbox de robótica. Se crea un script en el cual se escribe el siguiente código:
 
 ```
@@ -38,10 +38,10 @@ rosshutdown;
 Lo primero que se realiza es la suscripcion al nodo de TurtleSim para poder recibir datos, esto se hace mediante la funcion rossubscriber cuyos argumentos son los datos que se desean recibir, que en este caso son los provenientes de turtle1 acerca de la posicion /turtle1/pose, y el segundo argumento es el tipo de mensaje que se va a recibir, de forma general tendra la estructura de la posicion proveniente de TurtleSim /TurtleSim/pose.  
 
 Después de hacer la conexión con el nodo maestro, se crea una suscripción a partir de la cual se lee la información que ROS entrega respecto a la pose de la tortuga. Estos valores leídos se ven en la imagen.
-![1](/media/SS2.png)
+![2](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab2/media/SS2.png)
 
 Posteriormente, para enviar información se crea un objeto a partir de los servicios de ROS, en específico el de *teleport_absolute*. Se le asignan valores de X, Y y ángulo Theta y se llama el servicio, como se muestra en la imagen.
-![1](/media/SS3.png)
+![3](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab2/media/SS3.png)
 
 Finalmente, se usa el comando *rosshutdown* para finalizar la conexión.
 
