@@ -15,4 +15,10 @@ Con las trayectorias definidas, se creó el código de RAPID a partir de la info
 
 Como se puede observar en el video, el resultado es que tanto en la simulación como en la práctica el robot sigue el comportamiento deseado, y el operador lo controla desde el tablero de mando que contiene los pulsadores. Se ve también que se encienden los botones.
 
-[Video] (https://drive.google.com)
+[Video] (https://drive.google.com/file/d/1DsU00eRs1pSPnUV2a_-L5mDsIW8nfiMx/view?usp=sharing)
+
+### Código de RAPID:
+
+```
+% Código
+```
