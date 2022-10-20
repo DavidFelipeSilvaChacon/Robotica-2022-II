@@ -12,7 +12,7 @@ alpha = [90;0;0;0] * pi/180;
 d = [L1;0;0;0]/100;
 theta = [0;0;0;0];
 sigma = zeros(4,1);
-offset = [0;90;-90;0]* pi/180;
+offset = [90;90;0;0]* pi/180;
 
 %Serial Link creation
 DH_params = [theta d a alpha sigma offset];
@@ -27,7 +27,7 @@ q3 = [30 -30 30 -30]*pi/180;
 q4 = [-90 15 -55 17]*pi/180;
 q5 = [-90 45 -55 45]*pi/180;
 
-PlotRobot(Phantom,q5)
+PlotRobot(Phantom,q1)
 
 %% Forward Kinematics
 
