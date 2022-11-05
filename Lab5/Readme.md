@@ -248,33 +248,29 @@ while not rospy.is_shutdown():
 ## Videos del Brazo realizando cada uno de los movimientos
 
 Tomando el Marcador:
-![1](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos1.png)
-![2](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos1m.png)
+![1](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/1.png)
+![2](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/1.Agarra.mp4)
 
 Trazando el Arco Interno:
-![3](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos2.png)
+![3](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/2.png)
 ![4](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos2m.png)
 
 Trazando el Arco Externo:
-![5](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos3.png)
+![5](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/3.png)
 ![6](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos3m.png)
 
 Trazando el Triangulo:
-![7](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos4.png)
+![7](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/4.png)
 ![8](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos4m.png)
 
 Trazando el "Circulo":
-![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5.png)
+![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/5.png)
 ![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
 
 Escribiendo las "Letras (D)":
-![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5.png)
+![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/6.png)
 ![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
 
 Trazando otro "Circulo":
-![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5.png)
+![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/7.png)
 ![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
-
-## Video del brazo alcanzando cada posición solicitada:
-
-[Video] (https://drive.google.com/file/d/1MT1YTQTRgrJEi1LYMcrHDFR1yPw66OQJ/view?usp=sharing)
