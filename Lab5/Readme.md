@@ -1,4 +1,4 @@
-# Lab 3 - Robotica de desarrollo - Cinemática Directa
+# Lab 5 - Robotica de desarrollo - Cinemática Inversa
 
 ### Daniel Esteban Prieto Jiménez y David Felipe Silva Chacón
 
