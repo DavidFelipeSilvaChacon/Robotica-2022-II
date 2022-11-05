@@ -5,15 +5,18 @@
 
 ## Descripción de la solución planteada.
 
-Para el desarrolo del laboratorio, se inició programando el robot en MATLAB con los parámetros Denavit Hartenberg, para lo cuál se empleó el código presente en el archivo *Lab4.m* del repositorio. Este archivo se utilizó para graficar el robot en diversas configuraciones verificando que todas fueran alcanzables sin dañar el robot.
+Para la realización de este laboratorio nos basamos en los realizados anteriormente, particularmente en el laboratorio 4, en el cual conectamos el robot a ROS y el computador, desde donde se le enviaban los ángulos de las articulaciones.
 
 En un computador con Ubuntu, tras haber instalado ROS, el toolbox de robótica de Peter Corke, y demás software necesario, se creó un workspace de Catkin en el cuál se clonó el repositorio que permite el movimiento del robot. El archivo *basic.yaml* se editó para agregar las demás articulaciones del robot, ya que inicialmente solo tenía una. Fue en este archivo donde se ajustaron las ID y los valores máximos y mínimos de las articulaciones.
 
-Todos estos valores fueron tomados usando el programa Dynamixel Wizard y moviendo el robot manualmente. Para que el computador reconociera el puerto, fue necesario usar el programa Arduino para identificar el puerto serial correspondiente.
-
-Para el código de Python, se tomó como base el archivo incluído en el repositorio clonado, que permitía mover una articulación. Se amplió este código para soportar todas las articulaciones, se ajustaron los valores con los ángulos propuestos en la guía (en radianes), se ajustó el tiempo que le toma al robot lcambiar de configuración, y se usó el comando *sleep* para que se mantuviera un tiempo determinado en cada posición tras publicar el objeto de tipo *rosPublisher* al nodo. Con un ciclo, se garantizó que el robot se mantuviera iterando entre las cinco configuraciones indefinidamente.
-
 Para la ejecución del código en Python, se usaron tres terminales de Linux: La primera con el comando *roscore* para iniciar el servidor de ROS, la segunda con el comando *roslaunch dynamixel_one_motor one_controller.launch*, y la tercera simplemente para ejecutar el código de Python.
+
+En el anterior laboratorio ya se habían tomado las medidas de las articulaciones y las longitudes de los eslabones para crear nuestro modelo de cinemática directa. A partir de este realizamos un modelo de cinemática inversa utilizando el método geométrico, por ser el de mayor facilidad en este caso. 
+Adicionalmente en clase habíamos tratado ejemplos muy similares, lo cual nos facilitó el poder realizar la cinemática inversa por este método. 
+
+Una vez realizada la cinemática inversa procedimos a definir una función de cinemática inversa en nuestro código de Python, el cual tomado como entradas los valores x,y, z y una apertura determinada devolviera los valores de las articulaciones para cada conjunto de valores de entrada. Además en un documento de Autocad dibujamos las trayectorias que se requerían, es decir, los ángulos internos, externos, las figuras y las letras. Para poder así determinar los puntos en x e y qué iban a utilizarse para estos. Teniendo lo anterior se podían pasar a un documento de Excel. Este documento de Excel contenía los puntos necesarios para cada una de las figuras y en cada una de las páginas tenía un vector de puntos diferentes, por ejemplo en una hoja estaban los círculos, en otra las líneas, los arcos etcétera.
+
+Una vez realizado el mapeo de puntos de las figuras se le daba el vector de puntos a la función de cinemática inversa dependiendo del nombre de cada uno de las hojas de cálculo. Así obtenemos los vectores de las posiciones de cada una de las articulaciones para cada una de las figuras y/o letras a trazar. Finalmente se preguntaba por las letras o figura que se quisiera hacer y se procedía realizar el envío de los puntos por medio del comando publish(). A continuación podemos ver los videos de el robot realizando las trayectorias:
 
 ## Código del script utilizado:
 
