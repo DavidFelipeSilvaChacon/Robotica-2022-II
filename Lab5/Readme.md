@@ -250,34 +250,41 @@ while not rospy.is_shutdown():
 Tomando el Marcador:
 
 ![1](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/1.PNG)
-![2](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/1.%20Agarra.mp4)
+
+Video: https://drive.google.com/file/d/1ejoFGJe8PHke0rtKwc397O5gjIAo0tGB/view?usp=share_link
 
 Trazando el Arco Interno:
 
 ![3](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/2.PNG)
-![4](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos2m.png)
+
+Video: https://drive.google.com/file/d/1ky2cIkGz3L48yi7GFMtILIak0vpzlFXn/view?usp=share_link
 
 Trazando el Arco Externo:
 
 ![5](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/3.PNG)
-![6](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos3m.png)
+
+Video: https://drive.google.com/file/d/1wKps5OvifSbQMAo6eEKiTFudgWP_jZKV/view?usp=share_link
 
 Trazando el Triangulo:
 
 ![7](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/4.PNG)
-![8](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos4m.png)
+
+Video: https://drive.google.com/file/d/1N4BsBVl--hg3j0kV-lF7TC2jnVzauQuv/view?usp=share_link
 
 Trazando el "Circulo":
 
 ![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/5.PNG)
-![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
+
+Video: https://drive.google.com/file/d/1Ege-c-r4Y7hJ0xuYcEpTZ96pXdrC7D9S/view?usp=share_link
 
 Escribiendo las "Letras (D)":
 
 ![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/6.PNG)
-![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
+
+Video: https://drive.google.com/file/d/1GaDV3tnzY-l6nPSaYg9CmXVy8U_LVCix/view?usp=share_link
 
 Trazando otro "Circulo":
 
 ![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/7.PNG)
-![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
+
+Video: https://drive.google.com/file/d/1aIZWV3ehzQiwCC5_sSlLxrWFifMFxD7R/view?usp=share_link
