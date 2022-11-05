@@ -250,7 +250,7 @@ while not rospy.is_shutdown():
 Tomando el Marcador:
 
 ![1](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/1.PNG)
-![2](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/1. Agarra.mp4)
+![2](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab5/media/1.%20Agarra.mp4)
 
 Trazando el Arco Interno:
 
