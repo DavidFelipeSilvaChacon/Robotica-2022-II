@@ -245,28 +245,35 @@ while not rospy.is_shutdown():
 ```
 
 
-## Gráfica de la configuración comparándola con la fotografía del brazo en la misma configuración.
+## Videos del Brazo realizando cada uno de los movimientos
 
-Para la configuración 1:
+Tomando el Marcador:
 ![1](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos1.png)
 ![2](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos1m.png)
 
-Para la configuración 2:
+Trazando el Arco Interno:
 ![3](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos2.png)
 ![4](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos2m.png)
 
-Para la configuración 3:
+Trazando el Arco Externo:
 ![5](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos3.png)
 ![6](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos3m.png)
 
-Para la configuración 4:
+Trazando el Triangulo:
 ![7](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos4.png)
 ![8](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos4m.png)
 
-Para la configuración 5:
+Trazando el "Circulo":
 ![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5.png)
 ![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
 
+Escribiendo las "Letras (D)":
+![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5.png)
+![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
+
+Trazando otro "Circulo":
+![9](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5.png)
+![10](https://github.com/DavidFelipeSilvaChacon/Robotica-2022-II/blob/main/Lab4/media/pos5m.png)
 
 ## Video del brazo alcanzando cada posición solicitada:
 
